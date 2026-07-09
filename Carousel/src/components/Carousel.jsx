@@ -6,7 +6,7 @@ const Carousel = ({
   imageLimit = images.length,
   customPrevButton,
   customNextButton,
-  imgPerSlide = 2,
+  imgPerSlide = 5,
 }) => {
   const imgRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);

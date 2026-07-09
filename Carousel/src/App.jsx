@@ -22,14 +22,14 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetchImages(4);
+    fetchImages(8);
   }, []);
   return (
     <div className="carousel-container">
       <Carousel
         images={images}
         isloading={loading}
-        imageLimit={4}
+        imageLimit={8}
         // customPrevButton={}
         // customNextButton={}
         // imgPerSlide={}
