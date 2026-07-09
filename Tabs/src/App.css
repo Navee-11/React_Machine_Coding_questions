@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+.tablinks {
+  background-color: #cccccc65;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.active {
+  background-color: #ccc;
+}
+.tablinks:hover {
+  background-color: #ccc;
+}
